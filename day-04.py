@@ -40,13 +40,13 @@ else:
     print("Computer chose:")
     print(list_of_choice[computer_choice])
 
-if player_choice == 0 and computer_choice == 2:
-    print("You win!")
-elif player_choice == 1 and computer_choice == 0:
-    print("You win!")
-elif computer_choice > player_choice:
-    print("You lose!")
-elif player_choice > computer_choice:
-    print("You win!")
-else:
-    print("It's a draw")
+    if player_choice == 0 and computer_choice == 2:
+        print("You win!")
+    elif player_choice == 1 and computer_choice == 0:
+        print("You win!")
+    elif computer_choice > player_choice:
+        print("You lose!")
+    elif player_choice > computer_choice:
+        print("You win!")
+    else:
+        print("It's a draw")
