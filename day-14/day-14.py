@@ -6,7 +6,6 @@ from game_data import data
 game_end = False
 score = 0
 
-
 def format_data(choice):
   """Takes randomly generated choice and returns the printable format"""
 #Format choice into a printable format
