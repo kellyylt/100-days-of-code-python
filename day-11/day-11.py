@@ -1,5 +1,4 @@
 #Create simple Blackjack project
-
 import random
 import os
 from art import logo
