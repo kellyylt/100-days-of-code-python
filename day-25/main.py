@@ -1,5 +1,4 @@
 #Create a program to learn US States Names
-
 import turtle
 import pandas
 
